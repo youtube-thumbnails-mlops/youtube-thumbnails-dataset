@@ -1,6 +1,7 @@
-# DVC
+# DVC - Ignore data directories but NOT .dvc files
 /current
-/batches
+/batches/*
+!/batches/*.dvc
 
 # Python
 __pycache__/
@@ -9,3 +10,6 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Environment variables
+.env
