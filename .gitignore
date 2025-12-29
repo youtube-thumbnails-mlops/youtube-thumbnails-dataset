@@ -1,5 +1,4 @@
 # DVC - Ignore data directories but NOT .dvc files
-/current
 /batches/*
 !/batches/*.dvc
 
@@ -13,3 +12,4 @@ Thumbs.db
 
 # Environment variables
 .env
+/current
